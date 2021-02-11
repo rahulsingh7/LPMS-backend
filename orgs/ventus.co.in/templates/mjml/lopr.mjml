@@ -1,0 +1,74 @@
+<mjml>
+	<mj-head>
+    <mj-breakpoint width="128px" />
+	</mj-head>
+  <mj-body width='1024px'>
+    <mj-section background-color="#fafafa">
+        <mj-column width="100%">
+            <mj-image width="200px" src="{{ data.logo_url }}"></mj-image>
+            <mj-text align="center" font-size="10px" line-height="16px" color="#525252">
+					9400 WESTHEIMER RD, SUITE #2. HOUSTON, TX 77063<br/>
+					Tel: (832) 844-1234 | Fax: (832) 827-7299
+				</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" padding="0px">
+        <mj-column width="100%">
+            <mj-text align="center" font-weight="bold" font-size="25px" line-height="25px" color="#525252">
+                Request for L.O.P.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" padding="0px">
+        <mj-column width="30%">
+            <mj-text align="right" font-size="14px" line-height="20px" color="#525252">
+                <p>Attorney:</p>
+                <p>Your Client name:</p>
+                <p>Client DOB:</p>
+                <p>Ordering Physician:</p>
+                <p>Procedure(s):</p>
+            </mj-text>
+        </mj-column>
+        <mj-column width="70%">
+            <mj-text align="left" font-size="14px" line-height="20px" color="#525252">
+                <p>{{ data.case.lawyer.name.salutation }} {{ data.case.lawyer.name.display }}</p>
+                <p>{{ data.case.patient.name.salutation }} {{ data.case.patient.name.display }}</p>
+                <p>{{ data.case.patient.dob }}</p>
+                <p>{{ data.order.doctor.name.salutation }} {{ data.order.doctor.name.display }}</p>
+								{% for procedure in data.order.procedures %}
+									<p>{{ procedure.desc }}</p>
+								{% endfor %}
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" padding="0px">
+        <mj-column width="30%">
+            <mj-text align="right" font-size="14px" font-weight="bold" line-height="20px" color="#525252">
+                <p>Please Fax : </p>
+                <p>Or Email:</p>
+            </mj-text>
+        </mj-column>
+        <mj-column width="70%">
+            <mj-text align="left" font-size="14px" line-height="20px" color="#525252">
+                <p>(832) 827-7299</p>
+                <p>lop@breezemri.com</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" padding="0px">
+        <mj-column width="20%">
+            <mj-text align="right" font-size="12px" line-height="20px" color="#525252">
+                <p>Disclaimer:</p>
+            </mj-text>
+        </mj-column>
+        <mj-column width="60%">
+            <mj-text align="left" font-size="12px" line-height="16px" color="#525252">
+                <p>In Order to best serve our mutual interests, ALL exams requiring an LOP are not usually 
+                    scheduled prior to the LOP being received. If there are any questions or concerns about 
+                    our service, bill, reports, or our settlement negotiations, please feel free to call us 
+                    at (832) 844-1234.</p>   
+            </mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

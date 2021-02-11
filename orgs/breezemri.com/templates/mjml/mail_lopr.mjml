@@ -1,0 +1,42 @@
+<mjml>
+  <mj-body>
+
+	  <mj-section>
+
+			<mj-column width="100%" background-color="#fafafa">
+        <mj-image width="200px" src="{{ data.logo_url }}"></mj-image>
+      </mj-column>
+   
+			<mj-column width="100%" background-color="#fafafa">
+				<mj-text font-size="14px" color="#626262">
+					Dear {{ data.case.lawyer.name.salutation }} {{ data.case.lawyer.name.display }},
+				</mj-text>
+				<mj-text font-size="14px" line-height="18px" color="#626262">
+					<p>Please find below the link for LOP Request for your 
+                    client {{ data.case.patient.name.salutation }} {{ data.case.patient.name.display }} 
+					as advised by {{ data.order.doctor.name.salutation }} {{ data.order.doctor.name.display }}  
+					on {{ data.order.date }}.</p>
+				</mj-text>
+				<mj-button font-family="Helvetica" background-color="#f45e43" color="white" href="{{ data.document_url }}">
+          				Secure Download
+         			</mj-button>
+				<mj-text font-size="14px" color="#626262">
+					Yours Sincerely,<br/>
+					
+				</mj-text>
+			</mj-column>
+
+			<mj-column width="100%" background-color="#fafafa">
+				<mj-text font-size="18px" line-height="2px" color="#525252">
+					Breeze MRI
+				</mj-text>
+				<mj-text font-size="12px" line-height="16px" color="#525252">
+					9400 WESTHEIMER RD, SUITE #2<br/>
+					HOUSTON, TX 77063<br/>
+					Tel: (832) 844-1234 | Fax: (832) 827-7299
+				</mj-text>
+			
+		</mj-section>
+
+  </mj-body>
+</mjml>

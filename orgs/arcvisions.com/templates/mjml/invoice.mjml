@@ -1,0 +1,175 @@
+<mjml>
+  <mj-body style="font-size: 11px;">
+    <mj-section background-color="#fafafa">
+      <mj-column width="25%">
+        <mj-image width="120px" src="{{ data.logo_url }}"></mj-image>
+      </mj-column>
+      <mj-column width="35%">
+        <mj-text font-size="14px" font-weight="bold" line-height="2px" color="#525252">
+          Breeze MRI
+        </mj-text>
+        <mj-text font-size="10px" line-height="12px" color="#525252">
+          9400 WESTHEIMER RD, SUITE #2<br/>
+          HOUSTON, TX 77063<br/>
+          Tel: (832) 844-1234<br/>
+          Fax: (832) 827-7299<br/>
+          www.breezemri.com 
+				</mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text align="right" font-size="14px" font-weight="bold" line-height="2px" color="#525252">
+          INVOICE
+        </mj-text>
+        <mj-text align="right" font-size="10px" line-height="12px" color="#525252">
+          TAX ID # 81-4982455<br />
+          DATE: {{ data.date }}<br/>
+          CHART # {{ data.chart }}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#fafafa" padding="0px">
+      <mj-column width="25%">
+        <mj-text align="right" font-size="11px" font-weight="bold" line-height="12px" color="#525252">
+          Bill To:
+        </mj-text>
+      </mj-column>
+      <mj-column width="35%">
+        <mj-text font-size="11px" line-height="12px" color="#525252">
+          {{ data.patient.name.salutation }} {{ data.patient.name.display }}<br/>
+          {% if data.patient.address.line1 %}
+            {{ data.patient.address.line1 }}
+          {% endif %} 
+          {% if data.patient.address.line2 %}
+            {{ data.patient.address.line2}}
+          {% endif %} 
+          <br/>
+          {{ data.patient.address.city}}, {{ data.patient.address.state}}
+          {{ data.patient.address.zipcode}}
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text align="right" font-size="11px" line-height="12px" color="#525252">
+          Patient: {{ data.case.patient.name.salutation }} {{ data.case.patient.name.display }}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa">
+      <mj-column>
+        <mj-table width="100%">
+          <tr style="border-bottom:1px solid #ecedee;text-align:center;padding:15px 0;font-size:11px;">
+            <th style="padding: 0 15px 0 0;">Referring Physician</th>
+            <th style="padding: 0 15px;">Terms</th>
+            <th style="padding: 0 0 0 15px;">Due Date</th>
+          </tr>
+          <tr style="border-bottom:1px solid #ecedee;text-align:center;padding:15px 0;font-size:11px">
+            <td style="padding: 0 15px 0 0;">{{ data.order.doctor.name.salutation }} {{ data.order.doctor.name.display }}</td>
+            <td style="padding: 0 15px;">LOP</td>
+            <td style="padding: 0 0 0 15px;">Upon Settlement</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa" padding="0px">
+      <mj-column>
+        <mj-table>
+          <tr style="text-align:center;padding:15px 0;font-size:11px;">
+            <th width="15%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Date of service</th>
+            <th width="30%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Description</th>
+            <th width="10%" style="border:1px solid black; padding: 2px 2px 2px 5px;">CPT Code</th>
+            <th width="15%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Total Fee</th>
+            <th width="7.5%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Co-Pay</th>
+            <th width="7.5%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Adj</th>
+            <th width="15%" style="border:1px solid black; padding: 2px 2px 2px 5px;">Balance(PR)</th>
+          </tr>
+
+          {% for procedure in data.order.procedures %}
+          <tr style="font-size:11px;">
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						           text-align:center; padding: 2px 2px 0 2px;">{{ procedure.appointment.date }}</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						         
+											 text-align:left; padding: 2px 2px 0 2px;">{{ procedure.desc }}</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						        	 text-align:center; padding: 2px 2px 0 2px;">{{ procedure.cpt_code }}</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						           text-align:right; padding: 2px 2px 0 2px;">{{ procedure.rate }}</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						           text-align:center; padding: 2px 2px 0 2px;">N/A</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+						           text-align:right; padding: 2px 2px 0 2px;">{{ procedure.adj }}</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid #ecedee; 
+											 text-align:right; padding: 2px 2px 0 2px;">{{ procedure.charge }}</td>
+          </tr>
+          {% endfor %}
+
+          <tr style="font-size:11px;">
+            <td style="border-left:1px solid black;
+						           border-right:1px solid #ecedee;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black; 
+						           text-align:center; padding: 2px 2px 0 2px;"></td>
+            <td style="border-left:1px solid #ecedee;
+						           border-right:1px solid #ecedee;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black; 
+											 text-align:left; padding: 2px 2px 0 2px;"></td>
+            <td style="border-left:1px solid #ecedee;
+						           border-right:1px solid #ecedee;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black;
+											 text-align:center; padding: 2px 2px 0 2px;"></td>
+            <td style="border-left:1px solid #ecedee;
+						           border-right:1px solid #ecedee;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black;
+											 text-align:right; padding: 2px 2px 0 2px;"></td>
+            <td style="border-left:1px solid #ecedee;
+						           border-right:1px solid #ecedee;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black;
+											 text-align:center; padding: 2px 2px 0 2px;"></td>
+            <td style="border-left:1px solid #ecedee;
+						           border-right:1px solid black;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black;
+											 text-align:right; font-weight:bold; padding: 2px 2px 0 2px;">TOTAL</td>
+            <td style="border-left:1px solid black;
+						           border-right:1px solid black;
+						           border-top:1px solid black; 
+						           border-bottom:1px solid black;
+											 text-align:right; font-weight:bold; padding: 2px 2px 0 2px;">{{ data.total }}</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa">
+      <mj-column width="100%">
+        <mj-image width="1000px" src="http://localhost:5000/document/img/invoice_payment.jpeg"></mj-image>
+      </mj-column>>
+      <mj-column>
+        <mj-text align="center" font-size="12px" font-weight="bold" line-height="2px" color="#525252">
+          Thank You
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
+
+<!-- <script>
+</script> -->

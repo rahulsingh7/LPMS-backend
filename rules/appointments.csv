@@ -1,0 +1,13 @@
+priority,state,interval,comparison,threshold,criticality,actions,status
+1,SCHEDULED,TO_APPOINTMENT,<,APPOINTMENT_ELAPSED,WARNING,cancel||arrive||complete,OPEN
+2,SCHEDULED,TO_APPOINTMENT,<,APPOINTMENT_IMMINENT,CRITICAL,cancel||arrive||reschedule||remind,OPEN
+3,SCHEDULED,TO_APPOINTMENT,<,NO_REMINDER_CRITICAL,CRITICAL,cancel||reschedule||remind,OPEN
+4,SCHEDULED,TO_APPOINTMENT,<,NO_REMINDER_WARNING,WARNING,remind||reschedule,OPEN
+5,SCHEDULED,,,,NORMAL,remind||reschedule,OPEN
+6,REMINDED,TO_APPOINTMENT,<,APPOINTMENT_ELAPSED,NORMAL,cancel||arrive||complete,OPEN
+7,REMINDED,TO_APPOINTMENT,<,APPOINTMENT_IMMINENT,NORMAL,cancel||arrive||reschedule||remind,OPEN
+8,REMINDED,,,,NORMAL,remind||reschedule,OPEN
+9,ARRIVED,,,,NORMAL,check_in||cancel,OPEN
+10,CHECKED_IN,,,,NORMAL,start||cancel,OPEN
+11,IN_PROGRESS,,,,NORMAL,complete||cancel,OPEN
+12,COMPLETE,,,,NORMAL,,COMPLETE

@@ -1,0 +1,1227 @@
+{
+    "0": {
+        "desc": "OTHER",
+        "code": "00000",
+        "scan_type": "OTHER",
+        "rate": "0",
+        "key": 0
+    },
+    "1": {
+        "desc": "CT Abd & Pelvis W\/ Contrast",
+        "code": "74177",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 1
+    },
+    "2": {
+        "desc": "CT Abd & Pelvis W W\/O Contrast",
+        "code": "74178",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 2
+    },
+    "3": {
+        "desc": "CT Abd & Pelvis W\/O Contrast",
+        "code": "74176",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 3
+    },
+    "4": {
+        "desc": "CT Abd W\/ Contrast",
+        "code": "74160",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 4
+    },
+    "5": {
+        "desc": "CT Abd W\/O Contrast",
+        "code": "74150",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 5
+    },
+    "6": {
+        "desc": "CT Abd W W\/O Contrast",
+        "code": "74170",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 6
+    },
+    "7": {
+        "desc": "CT Chest W\/ Contrast",
+        "code": "71260",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 7
+    },
+    "8": {
+        "desc": "CT Chest W\/O Contrast",
+        "code": "71250",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 8
+    },
+    "9": {
+        "desc": "CT Chest W W\/O Contrast",
+        "code": "71270",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 9
+    },
+    "10": {
+        "desc": "CT Enterography W\/ Contrast",
+        "code": "74177",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 10
+    },
+    "11": {
+        "desc": "CT Extremity Lower W\/ Contrast",
+        "code": "73701",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 11
+    },
+    "12": {
+        "desc": "CT Extremity Lower W\/O Contrast",
+        "code": "73700",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 12
+    },
+    "13": {
+        "desc": "CT Extremity Upper W\/ Contrast",
+        "code": "73201",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 13
+    },
+    "14": {
+        "desc": "CT Extremity Upper W\/O Contrast",
+        "code": "73200",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 14
+    },
+    "15": {
+        "desc": "CT Head W\/ Contrast",
+        "code": "70460",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 15
+    },
+    "16": {
+        "desc": "CT Head W\/O Contrast",
+        "code": "70450",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 16
+    },
+    "17": {
+        "desc": "CT Head W W\/O Contrast",
+        "code": "70470",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 17
+    },
+    "18": {
+        "desc": "CT Max\/Facial W\/ Contrast",
+        "code": "70487",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 18
+    },
+    "19": {
+        "desc": "CT Max\/Facial W\/O Contrast",
+        "code": "70486",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 19
+    },
+    "20": {
+        "desc": "CT Neck W\/ Contrast",
+        "code": "70491",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 20
+    },
+    "21": {
+        "desc": "CT Neck W\/O Contrast",
+        "code": "70490",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 21
+    },
+    "22": {
+        "desc": "CT Orbit\/ IAC W\/ Contrast",
+        "code": "70481",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 22
+    },
+    "23": {
+        "desc": "CT Orbit\/ IAC W\/O Contrast",
+        "code": "70480",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 23
+    },
+    "24": {
+        "desc": "CT Orbit\/ IAC W W\/O Contrast",
+        "code": "70482",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 24
+    },
+    "25": {
+        "desc": "CT Pelvis W\/ Contrast",
+        "code": "72193",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 25
+    },
+    "26": {
+        "desc": "CT Pelvis W\/O Contrast",
+        "code": "72192",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 26
+    },
+    "27": {
+        "desc": "CT Pelvis W W\/O Contrast",
+        "code": "72194",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 27
+    },
+    "28": {
+        "desc": "CT Sinus Complete W\/O Contrast",
+        "code": "70486",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 28
+    },
+    "29": {
+        "desc": "CT Sinus Limited W\/O Contrast",
+        "code": "76380",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 29
+    },
+    "30": {
+        "desc": "CT Spine Cervical W\/ Contrast",
+        "code": "72126",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 30
+    },
+    "31": {
+        "desc": "CT Spine Cervical W\/O Contrast",
+        "code": "72125",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 31
+    },
+    "32": {
+        "desc": "CT Spine Lumbar W\/ Contrast",
+        "code": "72132",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 32
+    },
+    "33": {
+        "desc": "CT Spine Lumbar W\/O Contrast",
+        "code": "72131",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 33
+    },
+    "34": {
+        "desc": "CT Spine Thoracic W\/ Contrast",
+        "code": "72129",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 34
+    },
+    "35": {
+        "desc": "CT Spine Thoracic W\/O Contrast",
+        "code": "72128",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 35
+    },
+    "36": {
+        "desc": "CT Stone Protocol W\/O Contrast",
+        "code": "74176",
+        "scan_type": "CT",
+        "rate": "3000",
+        "key": 36
+    },
+    "37": {
+        "desc": "MRI Abdomen W\/O Contrast",
+        "code": "74181",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 37
+    },
+    "38": {
+        "desc": "MRI Abdomen W W\/O Contrast",
+        "code": "74183",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 38
+    },
+    "39": {
+        "desc": "MRI Brain W\/O Contrast",
+        "code": "70551",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 39
+    },
+    "40": {
+        "desc": "MRI Brain W W\/O Contrast",
+        "code": "70553",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 40
+    },
+    "41": {
+        "desc": "MRI Breast W W\/O Contrast",
+        "code": "77059",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 41
+    },
+    "42": {
+        "desc": "MRI Chest W\/O Contrast",
+        "code": "71550",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 42
+    },
+    "43": {
+        "desc": "MRI Chest W W\/O Contrast",
+        "code": "71552",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 43
+    },
+    "44": {
+        "desc": "MRI Extremity Lower W\/O Contrast",
+        "code": "73718",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 44
+    },
+    "45": {
+        "desc": "MRI Extremity Lower W W\/O Contrast",
+        "code": "73720",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 45
+    },
+    "46": {
+        "desc": "MRI Extremity Lower Joint W\/O Contrast",
+        "code": "72721",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 46
+    },
+    "47": {
+        "desc": "MRI Extremity Lower Joint W W\/O Contrast",
+        "code": "73723",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 47
+    },
+    "48": {
+        "desc": "MRI Extremity Upper W\/O Contrast",
+        "code": "73218",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 48
+    },
+    "49": {
+        "desc": "MRI Extremity Upper W W\/O Contrast",
+        "code": "73220",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 49
+    },
+    "50": {
+        "desc": "MRI Extremity Upper Joint W\/O Contrast",
+        "code": "73221",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 50
+    },
+    "51": {
+        "desc": "MRI Extremity Upper Joint W W\/O Contrast",
+        "code": "73223",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 51
+    },
+    "52": {
+        "desc": "MRI Enterography W W\/O Contrast",
+        "code": "72197",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 52
+    },
+    "53": {
+        "desc": "MRI Orbit, Face, Neck W\/O Contrast",
+        "code": "70540",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 53
+    },
+    "54": {
+        "desc": "MRI Orbit, Face, Neck W W\/O Contrast",
+        "code": "70543",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 54
+    },
+    "55": {
+        "desc": "MRI Pelvis W\/O Contrast",
+        "code": "72195",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 55
+    },
+    "56": {
+        "desc": "MRI Pelvis W W\/O Contrast",
+        "code": "72197",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 56
+    },
+    "57": {
+        "desc": "MRI Spine Cervical W\/O Contrast",
+        "code": "72141",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 57
+    },
+    "58": {
+        "desc": "MRI Spine Cervical W W\/O Contrast",
+        "code": "72156",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 58
+    },
+    "59": {
+        "desc": "MRI Spine Lumbar W\/O Contrast",
+        "code": "72148",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 59
+    },
+    "60": {
+        "desc": "MRI Spine Lumbar W W\/O Contrast",
+        "code": "72158",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 60
+    },
+    "61": {
+        "desc": "MRI Spine Thoracic W\/O Contrast",
+        "code": "72146",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 61
+    },
+    "62": {
+        "desc": "MRI Spine Thoracic W W\/O Contrast",
+        "code": "72157",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 62
+    },
+    "63": {
+        "desc": "MRI TMJ W\/O Contrast",
+        "code": "70336",
+        "scan_type": "MRI",
+        "rate": "3600",
+        "key": 63
+    },
+    "64": {
+        "desc": "X-RAY ABD complete (DEC)",
+        "code": "74020",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 64
+    },
+    "65": {
+        "desc": "X-RAY Finger (s) 2 views",
+        "code": "73140",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 65
+    },
+    "66": {
+        "desc": "X-RAY Pelvis 2 views",
+        "code": "72170",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 66
+    },
+    "67": {
+        "desc": "X-RAY Spine Cervical AP, Lat and Obliques, with flex ext. 6 or more views",
+        "code": "72052",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 67
+    },
+    "68": {
+        "desc": "X-RAY Abdomen KUB 1 view",
+        "code": "74000",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 68
+    },
+    "69": {
+        "desc": "X-RAY Foot 3 views",
+        "code": "73630",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 69
+    },
+    "70": {
+        "desc": "X-RAY Ribs, (1) Side 3 views",
+        "code": "71101",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 70
+    },
+    "71": {
+        "desc": "X-RAY AC Joints",
+        "code": "73050",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 71
+    },
+    "72": {
+        "desc": "X-RAY Forearm 2 views",
+        "code": "73090",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 72
+    },
+    "73": {
+        "desc": "X-RAY Ribs, (2) Sides 4 views",
+        "code": "71111",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 73
+    },
+    "74": {
+        "desc": "X-RAY Spine Lumbar AP & Lat",
+        "code": "72100",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 74
+    },
+    "75": {
+        "desc": "X-RAY Ankle 3 views",
+        "code": "73610",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 75
+    },
+    "76": {
+        "desc": "X-RAY Hand 3 views",
+        "code": "73130",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 76
+    },
+    "77": {
+        "desc": "X-RAY Sacrum \/ Coccyx 2 views",
+        "code": "72220",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 77
+    },
+    "78": {
+        "desc": "X-RAY Spine Lumbosacral min. 4 views",
+        "code": "72110",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 78
+    },
+    "79": {
+        "desc": "X-RAY AP Chest",
+        "code": "71010",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 79
+    },
+    "80": {
+        "desc": "X-RAY Heel 2 views",
+        "code": "73650",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 80
+    },
+    "81": {
+        "desc": "X-RAY SC Joints min 3 views with flex ext.",
+        "code": "71130",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 81
+    },
+    "82": {
+        "desc": "X-RAY Spine Lumbar Complete Bend min. 6 views",
+        "code": "72114",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 82
+    },
+    "83": {
+        "desc": "X-RAY Bone Age Studies",
+        "code": "77072",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 83
+    },
+    "84": {
+        "desc": "X-RAY Hip Bilateral",
+        "code": "73521",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 84
+    },
+    "85": {
+        "desc": "X-RAY Scapula",
+        "code": "73010",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 85
+    },
+    "86": {
+        "desc": "X-RAY Chest Decubitus",
+        "code": "71035",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 86
+    },
+    "87": {
+        "desc": "X-RAY Hip Unilateral 2 views",
+        "code": "73502",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 87
+    },
+    "88": {
+        "desc": "X-RAY Shoulder 2 views",
+        "code": "73030",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 88
+    },
+    "89": {
+        "desc": "X-RAY Spine Lumbar Bend only 2 or 3 views",
+        "code": "72120",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 89
+    },
+    "90": {
+        "desc": "X-RAY Chest Obliques",
+        "code": "71022",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 90
+    },
+    "91": {
+        "desc": "X-RAY Humerus 2 views",
+        "code": "73060",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 91
+    },
+    "92": {
+        "desc": "X-RAY SI Joints 3 or more views",
+        "code": "72202",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 92
+    },
+    "93": {
+        "desc": "X-RAY Spine Scoliosis Study",
+        "code": "72090",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 93
+    },
+    "94": {
+        "desc": "X-RAY Chest PA & Lat",
+        "code": "71020",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 94
+    },
+    "95": {
+        "desc": "X-RAY IVP",
+        "code": "74400",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 95
+    },
+    "96": {
+        "desc": "X-RAY Sinuses 3 views",
+        "code": "70220",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 96
+    },
+    "97": {
+        "desc": "X-RAY Spine Thoracic 3 views",
+        "code": "72072",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 97
+    },
+    "98": {
+        "desc": "X-RAY Clavicle",
+        "code": "73000",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 98
+    },
+    "99": {
+        "desc": "X-RAY Knee 3 views",
+        "code": "73562",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 99
+    },
+    "100": {
+        "desc": "X-RAY Skull 4 views",
+        "code": "70260",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 100
+    },
+    "101": {
+        "desc": "X-RAY Sternum",
+        "code": "71120",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 101
+    },
+    "102": {
+        "desc": "X-RAY Elbow 3 views",
+        "code": "73080",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 102
+    },
+    "103": {
+        "desc": "X-RAY Mandible 4 views",
+        "code": "70110",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 103
+    },
+    "104": {
+        "desc": "X-RAY Soft Tissue Neck",
+        "code": "70360",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 104
+    },
+    "105": {
+        "desc": "X-RAY Tib \/ Fib 2 views",
+        "code": "73590",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 105
+    },
+    "106": {
+        "desc": "X-RAY Eyes, Foreign Body",
+        "code": "70030",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 106
+    },
+    "107": {
+        "desc": "X-RAY Nasal Bones 3 views",
+        "code": "70160",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 107
+    },
+    "108": {
+        "desc": "X-RAY Spine Cervical 2 or 3 views",
+        "code": "72040",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 108
+    },
+    "109": {
+        "desc": "X-RAY TMJ Joints-Bilateral",
+        "code": "70330",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 109
+    },
+    "110": {
+        "desc": "X-RAY Facial Bones Complete",
+        "code": "70150",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 110
+    },
+    "111": {
+        "desc": "X-RAY Orbits 4 views",
+        "code": "70200",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 111
+    },
+    "112": {
+        "desc": "X-RAY Spine Cervical AP, Lat and Obliques 4 or 5 views",
+        "code": "72050",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 112
+    },
+    "113": {
+        "desc": "X-RAY Toe (s) 2 views",
+        "code": "73660",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 113
+    },
+    "114": {
+        "desc": "X-RAY Femur 2 views",
+        "code": "73552",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 114
+    },
+    "115": {
+        "desc": "X-RAY Osseous Survey (Metastatic)",
+        "code": "77074",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 115
+    },
+    "116": {
+        "desc": "X-RAY Wrist 3 views",
+        "code": "73110",
+        "scan_type": "X-RAY",
+        "rate": "300",
+        "key": 116
+    },
+    "117": {
+        "desc": "CTA Cardiac Calcium Score only",
+        "code": "75571",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 117
+    },
+    "118": {
+        "desc": "CTA Angiogram Abdomen & Pelvis W W\/O",
+        "code": "74174",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 118
+    },
+    "119": {
+        "desc": "CTA Angiogram Head W W\/O Contrast",
+        "code": "70496",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 119
+    },
+    "120": {
+        "desc": "CTA Angiogram Neck W W\/O Contrast",
+        "code": "70498",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 120
+    },
+    "121": {
+        "desc": "CTA Angiogram Abdomen W W\/O Contrast",
+        "code": "74175",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 121
+    },
+    "122": {
+        "desc": "CTA Angiogram Chest W W\/O Contrast",
+        "code": "71275",
+        "scan_type": "CTA",
+        "rate": "3000",
+        "key": 122
+    },
+    "123": {
+        "desc": "CCTA\/CTA Heart W W\/O Contrast",
+        "code": "75574",
+        "scan_type": "CCTA\/CTA",
+        "rate": "3000",
+        "key": 123
+    },
+    "124": {
+        "desc": "MRA Abdomen W W\/O Contrast",
+        "code": "74185",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 124
+    },
+    "125": {
+        "desc": "MRA Extremity Upper W W\/O Contrast",
+        "code": "73225",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 125
+    },
+    "126": {
+        "desc": "MRA Head W W\/O Contrast",
+        "code": "70546",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 126
+    },
+    "127": {
+        "desc": "MRA Neck W W\/O Contrast",
+        "code": "70549",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 127
+    },
+    "128": {
+        "desc": "MRA Chest W W\/O Contrast",
+        "code": "71555",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 128
+    },
+    "129": {
+        "desc": "MRA Head W\/ Contrast",
+        "code": "70545",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 129
+    },
+    "130": {
+        "desc": "MRA Neck W\/ Contrast",
+        "code": "70548",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 130
+    },
+    "131": {
+        "desc": "MRA Pelvis W W\/O Contrast",
+        "code": "72198",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 131
+    },
+    "132": {
+        "desc": "MRA Extremity Lower W W\/O Contrast",
+        "code": "73725",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 132
+    },
+    "133": {
+        "desc": "MRA Head W\/O Contrast",
+        "code": "70544",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 133
+    },
+    "134": {
+        "desc": "MRA Neck W\/O Contrast",
+        "code": "70547",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 134
+    },
+    "135": {
+        "desc": "MRA Runoff",
+        "code": "74185",
+        "scan_type": "MRA",
+        "rate": "3600",
+        "key": 135
+    },
+    "136": {
+        "desc": "US Abdomen Complete",
+        "code": "76700",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 136
+    },
+    "137": {
+        "desc": "EKG EKG ONLY",
+        "code": "93000",
+        "scan_type": "EKG",
+        "rate": "0",
+        "key": 137
+    },
+    "138": {
+        "desc": "US OB additional gestation",
+        "code": "76802",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 138
+    },
+    "139": {
+        "desc": "US Retroperitoneal Ltd. (Aorta or Renal)",
+        "code": "76775",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 139
+    },
+    "140": {
+        "desc": "US Abdomen Ltd.",
+        "code": "76705",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 140
+    },
+    "141": {
+        "desc": "US Extremity Arteries Bilateral",
+        "code": "93925",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 141
+    },
+    "142": {
+        "desc": "US OB > 14 weeks",
+        "code": "76805",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 142
+    },
+    "143": {
+        "desc": "US Scrotum & Contents",
+        "code": "76870",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 143
+    },
+    "144": {
+        "desc": "US Bi-Carotid Dop-extracranial Artery",
+        "code": "93880",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 144
+    },
+    "145": {
+        "desc": "US Bladder",
+        "code": "76857",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 145
+    },
+    "146": {
+        "desc": "US Extremity Veins Bilateral",
+        "code": "93970",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 146
+    },
+    "147": {
+        "desc": "US OB Transvaginal",
+        "code": "76817",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 147
+    },
+    "148": {
+        "desc": "US Transvaginal",
+        "code": "76830",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 148
+    },
+    "149": {
+        "desc": "US Breast Complete (w\/ axilla)",
+        "code": "76641",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 149
+    },
+    "150": {
+        "desc": "US Extremity Veins Unilateral",
+        "code": "93971",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 150
+    },
+    "151": {
+        "desc": "US Pelvic",
+        "code": "76856",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 151
+    },
+    "152": {
+        "desc": "US Breast Limited",
+        "code": "76642",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 152
+    },
+    "153": {
+        "desc": "US Extremity, non-vascular",
+        "code": "76881",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 153
+    },
+    "154": {
+        "desc": "US Pleural Effusion Chest",
+        "code": "76604",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 154
+    },
+    "155": {
+        "desc": "ECHO Echocardiography",
+        "code": "93306",
+        "scan_type": "ECHO",
+        "rate": "0",
+        "key": 155
+    },
+    "156": {
+        "desc": "US Neck, Thyroid\/Parathyroid",
+        "code": "76536",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 156
+    },
+    "157": {
+        "desc": "US Retroperitoneal Compl. (Renal & Bladder)",
+        "code": "76770",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 157
+    },
+    "158": {
+        "desc": "US Extremity Arteries Unilateral",
+        "code": "93926",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 158
+    },
+    "159": {
+        "desc": "US OB < 14 weeks Pregnancy 1st Trim.",
+        "code": "76801",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 159
+    },
+    "160": {
+        "desc": "US Stress Echo",
+        "code": "93351",
+        "scan_type": "US",
+        "rate": "0",
+        "key": 160
+    },
+    "161": {
+        "desc": "MAMMO Diagnostic mammography; unilateral",
+        "code": "77065",
+        "scan_type": "MAMMO",
+        "rate": "3600",
+        "key": 161
+    },
+    "162": {
+        "desc": "MAMMO Diagnostic mammography; bilateral",
+        "code": "77066",
+        "scan_type": "MAMMO",
+        "rate": "3600",
+        "key": 162
+    },
+    "163": {
+        "desc": "MAMMO Screening mammography, (2-view study of each breast); bilateral ",
+        "code": "77067",
+        "scan_type": "MAMMO",
+        "rate": "3600",
+        "key": 163
+    },
+    "164": {
+        "desc": "MAMMO Screening digital breast tomosynthesis, bilateral",
+        "code": "77063",
+        "scan_type": "MAMMO",
+        "rate": "3600",
+        "key": 164
+    },
+    "165": {
+        "desc": "EMG",
+        "code": "95886",
+        "scan_type": "EMG",
+        "rate": "3800",
+        "key": 165
+    },
+    "166": {
+        "desc": "Custom Procedure 1",
+        "code": "00001",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 166
+    },
+    "167": {
+        "desc": "Custom Procedure 2",
+        "code": "00002",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 167
+    },
+    "168": {
+        "desc": "Custom Procedure 3",
+        "code": "00003",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 168
+    },
+    "169": {
+        "desc": "Custom Procedure 4",
+        "code": "00004",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 169
+    },
+    "170": {
+        "desc": "Custom Procedure 5",
+        "code": "00005",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 170
+    },
+    "171": {
+        "desc": "Custom Procedure 6",
+        "code": "00006",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 171
+    },
+    "172": {
+        "desc": "Custom Procedure 7",
+        "code": "00007",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 172
+    },
+    "173": {
+        "desc": "Custom Procedure 8",
+        "code": "00008",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 173
+    },
+    "174": {
+        "desc": "Custom Procedure 9",
+        "code": "00009",
+        "scan_type": "Custom",
+        "rate": "0",
+        "key": 174
+    }
+}

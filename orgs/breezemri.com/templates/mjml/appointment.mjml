@@ -1,0 +1,42 @@
+<mjml>
+  <mj-body>
+
+	  <mj-section>
+
+			<mj-column width="100%" background-color="#fafafa">
+        <mj-image width="200px" src="{{ data.logo_url }}"></mj-image>
+      </mj-column>
+   
+			<mj-column width="100%" background-color="#fafafa">
+				<mj-text font-size="14px" 
+						 line-height="18px" 
+						 color="#626262">
+					<p>Dear {{ data.case.patient.name.salutation }} {{ data.case.patient.name.display }},</p>
+					<p>Please find below the details of your appointment for 
+					{% for procedure in data.appointment.procedures %}
+						<p>{{ procedure.desc }}</p> 
+					{% endfor %}, 
+					<p>advised by {{ data.order.doctor.name.salutation }} {{ data.order.doctor.name.display }} as per order 
+					dated {{ data.order_date }}.</p>
+					<p>Clinic: {{ data.clinic.name }} <br/>
+						Address: {{ data.clinic.address.line1 }} {{ data.clinic.address.line2 }} <br/>
+						Phone: {{ data.clinic.contact.phone }} <br/>
+						Email: {{ data.clinic.contact.email }} <br/>
+						Date: {{ data.appointment.date }} <br/>
+						Time: {{ data.appointment.time }}</p>
+          <p>Please call for detailed directions.</p>
+					<p>Yours Sincerely,</p>
+				</mj-text>
+				<mj-text font-size="20px" line-height="2px" color="#525252">
+					{{ data.org.name }}
+				</mj-text>
+				<mj-text font-size="12px" line-height="16px" color="#525252">
+					{{ data.org.address.line1 }} {{ data.org.address.line2 }}<br/>
+					{{ data.org.address.city }}, {{ data.org.address.state }} {{ data.org.address.zipcode }}<br/>
+					Tel: {{ data.org.contact.phone }} | Fax: {{ data.org.contact.fax }}
+				</mj-text>
+			
+		</mj-section>
+
+  </mj-body>
+</mjml>
